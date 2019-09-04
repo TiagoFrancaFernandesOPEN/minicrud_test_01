@@ -1,6 +1,7 @@
 <?php
 $project_company = "WeON";
 $project_dir = "./project";
+$project_repo = "https://github.com/TiagoFrancaFernandesOPEN/minicrud_test_01.git";
 $desc = '
 <div dir="ltr">
     Olá, conforme conversamos segue abaixo o teste de seleção,
@@ -45,7 +46,7 @@ $desc = '
 <body>
 
 <?php
-$link_proj= "<a href='".$project_dir."'>Go to project</a><br><hr><br><h2>Project Details</h2>";
+$link_proj= "<a href='".$project_dir."'>Go to project</a><br><a href='".$project_repo."'>GitHub</a><hr><br><h2>Project Details</h2>";
 echo nl2br($link_proj.$desc);
 
 ?>
