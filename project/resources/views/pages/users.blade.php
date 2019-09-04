@@ -58,8 +58,6 @@
         {{ $users->links('layout/pagination') }}
     </div>
 </div>
-<!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#formUserModal">Modal</a>
 <style>
     #formUserModal{width: 100%; top: 10% !important; min-height: 85%;}
     #formUserModal div.modal-overlay{background: #0000 !important;}
