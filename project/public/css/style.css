@@ -1,0 +1,17 @@
+img.materialboxed {
+    max-height: 9em;
+}
+.close_alert{
+    float: right;
+}
+.alert_box{
+   margin-bottom: 0.5em  !important;
+}
+
+/* Paginação */
+.pagination li.active {
+    padding: 0 0.5em;
+}
+.pagination li.active {
+    background-color: #ee6e73;
+}
