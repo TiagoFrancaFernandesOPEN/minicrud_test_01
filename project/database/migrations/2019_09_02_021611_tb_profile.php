@@ -17,7 +17,6 @@ class TbProfile extends Migration
             $table->increments('profile_id');
             $table->string('profile_name');
             $table->string('profile_type');
-            $table->timestamps();
         });
     }
 

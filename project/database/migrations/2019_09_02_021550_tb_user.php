@@ -21,8 +21,6 @@ class TbUser extends Migration
             $table->date('user_birth_date')->nullable();
             $table->integer('user_profile');
             $table->string('user_password');
-            $table->rememberToken();
-            $table->timestamps();
         });
     }
 
